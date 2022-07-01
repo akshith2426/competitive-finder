@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <h1 className='text-6xl mb-4'>Git-Leet Finder</h1>
+      <h1 className='text-6xl mb-4'>Competitive Finder</h1>
       <p className='mb-4 text-2xl font-light'>
         A React app to search GitHub,Leetcode profiles and see profile details.
       </p>

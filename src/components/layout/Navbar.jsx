@@ -33,7 +33,7 @@ const Navbar = ({title}) => {
         </nav>
     )
 }
-Navbar.defaultProps = { title: 'Leet-Git Finder' }
+Navbar.defaultProps = { title: 'Competitive Finder' }
 
 Navbar.propTypes = { 
     title:PropTypes.string
