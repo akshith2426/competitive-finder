@@ -11,10 +11,10 @@ const About = () => {
         Version <span className='text-white'>1.0.0</span>
       </p>
       <p className='text-lg text-gray-400'>
-        Built By :  
-         <a className='text-white' href='https://www.linkedin.com/in/sai-akshith-vasa/'>
-           Sai Akshith Vasa
-        </a>
+        Built By    
+        <span> <a className='text-white' href='https://www.linkedin.com/in/sai-akshith-vasa/' target='_blank'>
+          Sai Akshith Vasa
+        </a></span>
       </p>
     </>
   )

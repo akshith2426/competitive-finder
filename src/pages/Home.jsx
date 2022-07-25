@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div style={{margin:'0 3%'}} className="grid grid-cols-1 gap-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 ">
-          <div className="card  bg-gray-700 shadow-xl">
+    <div style={{display:'flex',flexDirection:'row',justifyContent: 'space-around',flexWrap:'wrap'}} >
+          <div className="card  bg-gray-700 shadow-xl m-1">
             <figure><SiLeetcode className="text-9xl mt-5"/></figure>
             <div className="card-body">
               <h1 className="card-title">Leetcode</h1>
@@ -15,7 +15,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="card  bg-gray-700 shadow-xl">
+          <div className="card  bg-gray-700 shadow-xl m-1">
             <figure><SiGithub className="text-9xl mt-5"/></figure>
             <div className="card-body">
               <h2 className="card-title">Github</h2>
@@ -25,7 +25,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="card  bg-gray-700 shadow-xl">
+          <div className="card  bg-gray-700 shadow-xl m-1">
             <figure><figure><SiCodeforces className="text-9xl mt-5"/></figure></figure>
             <div className="card-body">
               <h2 className="card-title">Codeforces</h2>
